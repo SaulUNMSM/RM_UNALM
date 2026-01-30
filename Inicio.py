@@ -2,14 +2,14 @@ import streamlit as st
 
 # Configuración de la página principal
 st.set_page_config(
-    page_title="Portafolio de Ingeniería",
+    page_title="Mecánica de Sólidos",
     page_icon="👷‍♂️",
     layout="wide"
 )
 
 # --- TÍTULO Y PRESENTACIÓN ---
-st.title("👷‍♂️ Portafolio de Herramientas de Ingeniería")
-st.markdown("### Bienvenido a mi suite de cálculo estructural")
+st.title("👷‍♂️ Herramientas de Mecánica de Sólidos")
+st.markdown("### ¡¡¡Bienvenido!!!")
 
 # --- COLUMNAS PARA PRESENTAR LOS MÓDULOS ---
 col1, col2 = st.columns(2)
