@@ -5,13 +5,13 @@ import plotly.graph_objects as go
 from fpdf import FPDF
 
 # Configuración de la página
-st.set_page_config(page_title="Suite de Ingeniería: Esfuerzos y Rosetas", layout="wide")
+st.set_page_config(page_title="Esfuerzos y Deformaciones", layout="wide")
 
 # --- CLASE PARA EL PDF ---
 class PDFReport(FPDF):
     def header(self):
         self.set_font('Arial', 'B', 15)
-        self.cell(0, 10, 'Reporte de Ingenieria Mecanica', 0, 1, 'C')
+        self.cell(0, 10, 'Reporte de Ingenieria', 0, 1, 'C')
         self.ln(5)
 
     def chapter_title(self, title):
@@ -26,8 +26,8 @@ class PDFReport(FPDF):
         self.ln()
 
 def main():
-    st.title("🧪 Suite de Ingeniería: Esfuerzos y Rosetas")
-    st.markdown("Herramienta dual: Análisis teórico de esfuerzos y procesamiento experimental de rosetas de deformación.")
+    st.title("🧪 Análisis de Esfuerzos y Deformaciones")
+    st.markdown("Análisis teórico de esfuerzos y procesamiento experimental de rosetas de deformaciones.")
 
     # --- BARRA LATERAL: SELECCIÓN DE MODO ---
     st.sidebar.header("⚙️ Configuración")
