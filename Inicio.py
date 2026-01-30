@@ -15,25 +15,25 @@ st.markdown("### ¡¡¡Bienvenido!!!")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.info("### 1. Esfuerzo Plano y Rosetas")
+    st.success("### 1. Armaduras planas")
     st.markdown("""
-    Esta herramienta permite realizar análisis de mecánica de materiales:
-    * Cálculo de **Esfuerzos Principales** y Círculo de Mohr.
-    * Procesamiento de datos experimentales de **Rosetas de Deformación**.
-    * Criterios de falla (**Von Mises**) y reportes PDF.
-    
-    👈 **Ve a la barra lateral para abrir esta app.**
-    """)
-
-with col2:
-    st.success("### 2. Otro Programa (Ejemplo)")
-    st.markdown("""
-    Aquí puedes describir tu segunda herramienta:
+    Esta herramienta permite encontrar las fuerzas en armaduras:
     * Análisis de vigas.
     * Dinámica de fluidos.
     * Ciencia de datos.
     
     👈 **Selecciona la segunda opción en el menú.**
+    """)
+
+with col2:
+    st.info("### 2. Esfuerzo Plano")
+    st.markdown("""
+    Esta herramienta permite realizar análisis de Resistencia de Materiales:
+    * Cálculo de **Esfuerzos Principales** y Círculo de Mohr.
+    * Procesamiento de datos experimentales de **Rosetas de Deformación**.
+    * Criterios de falla (**Von Mises**) y reportes PDF.
+    
+    👈 **Ve a la barra lateral para abrir esta app.**
     """)
 
 st.markdown("---")
